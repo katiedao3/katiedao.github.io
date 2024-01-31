@@ -3,7 +3,7 @@ body {
 }
 
 .nav {
-    background: url('./images/wide cat.jpg') center/cover;
+    background: url('wide cat.jpg') center/cover;
     display: flex;
     justify-content: flex-end;
     padding: 30px;
