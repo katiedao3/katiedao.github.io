@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+.nav {
+    background: url('./images/wide cat.jpg') center/cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    height: 150px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #2E7D32;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #BDBDBD;
+    border-radius: 50%;
+}
+
+.text-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.middle {
+    text-align: center;
+    padding: 20px;
+}
+
+.section1 {
+    text-align: center;
+    padding: 20px;
+}
+.skills-sections {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FF66B2; 
+    padding: 20px;
+}
+
+.skill-square {
+    width: 250px;
+    padding: 20px;
+    background-color: #FFCCFF; 
+    border: 2px solid #FF3385;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #2196F3;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
